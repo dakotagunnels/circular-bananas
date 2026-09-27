@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6376159044382269783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8489341538907545171}
+  - component: {fileID: 1052215751721547323}
+  m_Layer: 0
+  m_Name: AdventureController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8489341538907545171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6376159044382269783}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1052215751721547323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6376159044382269783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0376d028ea132c0498675705715b9249, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  enemyPrefab: {fileID: 176407204724734727, guid: b7fdd36fea7b4a54a911e895f095e5b0, type: 3}
+  enemies:
+  - {fileID: 11400000, guid: 689a21cb959394142ab9c94f78fe17d0, type: 2}
+  - {fileID: 11400000, guid: f040ffdc676f0f74d9602026ff089da1, type: 2}
+  - {fileID: 11400000, guid: 8761973f32419ea469a3cf534704f50b, type: 2}
+  - {fileID: 11400000, guid: dc631fb57fab3bc46acc9fe72187e6db, type: 2}
+  - {fileID: 11400000, guid: 5184a8ec1e1524d44ae9c547e6d91487, type: 2}
+  - {fileID: 11400000, guid: 176311238d0c0e54e92943e5cf357ae4, type: 2}
+  - {fileID: 11400000, guid: 90047e3e80cb9544e8c6adb5da5b70c3, type: 2}
+  - {fileID: 11400000, guid: 65ef5ace1508d0543b8338d08b6c0166, type: 2}
+  - {fileID: 11400000, guid: 86a629801d45024439c338b2e571fd9f, type: 2}
+  - {fileID: 11400000, guid: 0f6c7befafd74f34c8ae2618ac4dd4e2, type: 2}
+  - {fileID: 11400000, guid: fbbabd0d49192004a9088fa7c55019a6, type: 2}
+  - {fileID: 11400000, guid: 566b568f35799c84691d3a861942b265, type: 2}
+  - {fileID: 11400000, guid: 3975ea02390b6c64c964a4d6c055280b, type: 2}
+  - {fileID: 11400000, guid: c8ce223aeedef6c4ea4635119c010960, type: 2}
+  - {fileID: 11400000, guid: 282e08c9d8c067245aefc1548e2500be, type: 2}
+  - {fileID: 11400000, guid: a558cc214e2cdd4429b80342eecf103e, type: 2}
+  - {fileID: 11400000, guid: fb8de1c47e3500f4cb5f5707498f5b16, type: 2}
+  - {fileID: 11400000, guid: 39b301cbe65841744995421dcffd4a3a, type: 2}
+  - {fileID: 11400000, guid: 750c03b997f4ae14e959a30d7accd0a9, type: 2}
+  - {fileID: 11400000, guid: 72c8e13f6228d6f42b020f7e0f77ddc0, type: 2}
+  - {fileID: 11400000, guid: 3a1ca4d59c1591148a0b6cc4b6d55aac, type: 2}
+  specialAttacks:
+  - {fileID: 11400000, guid: bc8d27502ae006843b52b15f14317f14, type: 2}
+  - {fileID: 11400000, guid: 8910f0325ac8de34f91f0bb0dcf59bf1, type: 2}
+  - {fileID: 11400000, guid: e18e9290e5dd79b4697519334aee3393, type: 2}
+  - {fileID: 11400000, guid: 238c5266ec79fa643a1748c550811f0a, type: 2}
+  - {fileID: 11400000, guid: f160c7b9d6354da4caa4515476d4ce0b, type: 2}
+  enemySpawnPoint: {fileID: 0}

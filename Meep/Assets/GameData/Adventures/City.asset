@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e0830ea28adaf41b8d30c90086e476, type: 3}
+  m_Name: City
+  m_EditorClassIdentifier: 
+  biome: City
+  events:
+  - {fileID: 11400000, guid: f046cfc727da97e4f8e979e02e51aa95, type: 2}
+  - {fileID: 11400000, guid: 9384bde78e9ce30438d23798216029ee, type: 2}
+  - {fileID: 11400000, guid: 9988393c59d4c2949b0fba0d6e679417, type: 2}
+  - {fileID: 11400000, guid: 54fa49acf89c8a44e85a7d10a3531612, type: 2}
+  - {fileID: 11400000, guid: fb5c035924fbff7498c244dee839170f, type: 2}
