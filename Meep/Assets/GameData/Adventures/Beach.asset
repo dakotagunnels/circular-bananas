@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e0830ea28adaf41b8d30c90086e476, type: 3}
+  m_Name: Beach
+  m_EditorClassIdentifier: 
+  biome: Beach
+  events:
+  - {fileID: 11400000, guid: 70d46b5266369c64e9231a311f797a6f, type: 2}
+  - {fileID: 11400000, guid: b6505356217e6574290f8a2349064266, type: 2}
+  - {fileID: 11400000, guid: 33f2925647ef204409e2375a35b661a5, type: 2}
+  - {fileID: 11400000, guid: 830f43e143b63de4e96d001f841a1290, type: 2}
+  - {fileID: 11400000, guid: eecc0496f71f3ba43977855166e7819c, type: 2}

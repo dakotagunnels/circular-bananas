@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e0830ea28adaf41b8d30c90086e476, type: 3}
+  m_Name: Mountain
+  m_EditorClassIdentifier: 
+  biome: Mountain
+  events:
+  - {fileID: 11400000, guid: bff48b556e1d0b64889caa73fabd2814, type: 2}
+  - {fileID: 11400000, guid: 6d149e8d740984e43a6627d7d4c47918, type: 2}
+  - {fileID: 11400000, guid: beb16f78875627a4b93c08eb2cf5d461, type: 2}
+  - {fileID: 11400000, guid: d31de25b42d3a6a4cb47edf3f66a0805, type: 2}
+  - {fileID: 11400000, guid: c9f52c7c02bc08843af945adbb9e8a42, type: 2}
